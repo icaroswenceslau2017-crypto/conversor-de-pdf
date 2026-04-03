@@ -161,4 +161,4 @@ if arquivo:
             geral.to_excel(writer, sheet_name='Bd_NotasGeral', index=False)
             audit.to_excel(writer, sheet_name='Auditoria', index=False)
             dups.to_excel(writer, sheet_name='Duplicados', index=False)
-        st.download_button("📥 Baixar Relatório", buffer.getvalue(), "relatorio_SIGO_final.xlsx")
+        st.download_button("📥 Baixar Relatório em Excel", buffer.getvalue(), "relatorio_SIGO_final.xlsx")
